@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background-color: #222;
+  color: #eee;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+#page-title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-line: overline underline;
+}
+a,a:hover,a:visited {
+  color: white;
+}
+nav {
+  display: block;
+}
+nav > a {
+  text-decoration: none;
+  padding: 0.5em 1em 0.5em 1em;
+}
+nav > a:hover {
+  text-decoration: underline;
+  background-color: #444;
+}
+div.container {
+  max-width: 60em;
+  text-align: left;
+  display: inline-block;
+}
+aside
+{
+  border: 5px double;
+  text-align: center;
+  padding: 1em;
+}
+div.image {
+  text-align: center;
+}
+.notable {
+  font-size: 150%;
+  font-weight: bold;
+  font-style: italic;
+}
+table, td, th {
+  border: 1px solid #444;
+  padding: 0.2;
+}
+thead, tfoot {
+  background-color: #444;
+}
+footer {
+  background-color: #444;
+  color: #fff;
+  border-top: 4px double #fff;
+  padding: 1em;
+  text-align: center;
+}
+p {
+  padding: 0.5em 0;
 }
